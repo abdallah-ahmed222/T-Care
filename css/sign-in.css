@@ -1,0 +1,154 @@
+* { 
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+::selection {
+    color:  rgb(82, 169, 219);
+}
+body {
+    font-family: 'Cairo', sans-serif;
+font-family: 'Jomhuria', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.first-section {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../image/does_medicare_cover_dental_getty_creative.jpeg"); 
+    position: relative;
+    color: white;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.34);
+}
+.first-section__container {
+    width: 30%;
+    border-radius:25px ;
+    background: transparent;
+    padding:50px ;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left:15%;
+    transform: translate(-15%, -50%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.first-section__heading {
+    text-align: center;
+    color: white;
+    font-size:2rem ;
+    height: 5%;
+}
+.first-section__input {
+ border: none;
+ width:100% ;
+ padding:10px;
+ outline: none;
+ border-radius: 25px 25px 25px 25px;
+ caret-color: #0390e1;
+ font-size: 1rem;
+ color: #0390e1;
+ background: rgba(255, 255, 255, 0.682);
+}
+.first-section__label {
+    padding:  15px ;
+}
+.first-section__link {
+    text-decoration: none;
+    padding:15px;
+    
+}
+.first-section__submit {
+    border-radius: 25px;
+    border: none;
+    width: 60%;
+    background-color: rgb(82, 169, 219);
+    padding:10px;
+    margin: 10px 0;
+    align-self: center;
+    cursor: pointer;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.icon-container {
+    display: flex;
+}
+.first-section__form {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 30px;
+    font-weight: bold;
+
+}
+.first-sectoin__reset {
+    margin:10px 0 ;
+    align-self: flex-end;
+    padding-right: 0;
+}
+.first-sectoin__text,
+.icon-container,
+.first-section__signup {
+    align-self: center;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.first-section__signup {
+    text-align: center;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+.icon-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between ;
+}
+.icon-container__icon {
+    padding: 3px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    border-radius: 50%;
+    background: rgb(82, 169, 219);
+}
+.first-section__submit:hover,
+.icon-container__icon:hover {
+    background: #0390e1;
+}
+.first-section__link {
+    color: rgb(150, 211, 247) ;
+}
+.first-section__link:hover {
+    color: white;
+}
+.first-section__floating-icon {
+    font-size: 2.5rem;
+    padding: 15px 24px 26px;
+    right: 0;
+    color: white;
+    position:absolute;
+    border-bottom-left-radius: 80%;
+    background: #0390e1a6;
+}
+.first-section__submit--padding {
+    margin: 10px 0;
+    font-size: 1rem;
+}
